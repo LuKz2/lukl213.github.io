@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Projeto Pessoal</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/javascript.js">
+</head>
+
+<body id="body" class="lightMode">
+
+    <nav class="logo">
+        <a href="index.html">
+            <img id="luscadoll" src="img/lusdoll.jpg" alt="logo" width="100" height="100"></a>
+        <ul>
+            <li><a href="#sobre">Objetivo</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#pt">Trabalhos</a></li>
+            <li><a href="#contato">Entre em Contato</a></li>
+            <li></li>
+            <div id="Trocar_darkmode">
+                <div class="round">
+                    <input type="checkbox" id="checkbox" onclick="darkMode()" />
+                    <label for="checkbox"></label>
+                </div>
+                </li>
+
+                </li>
+
+    </nav>
+    </ul>
+    </nav>
+
+    <header>
+        <h1>Lucas Oliveira Angelo</h1>
+        <a class="botao" href="img/CurriculoLucas.doc" download="cv">Baixar Curriculo</a>
+    </header>
+
+    <section id="sobre">
+
+        <h2>OBJETIVO</h2>
+        <p>Gostaria de fazer parte desta empresa, pois tenho alguns conhecimentos de informatica
+            que estou adquirindo do meu Ensino médio para que eu possa crescer profissionalmente
+            de forma produtiva para o grande desenvolvimento dessa organização.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <div>
+            <img id="office" src="img/Office.png" alt="OF">
+            <h3>Microsoft</h3>
+            <p>
+                É um pacote de aplicativo desenvolvido que contém : processador de texto, planilha de cálculo, banco de
+                dados, apresentação gráfica, cliente de e-mails, entre outros.</p>
+            <p> Word, Excel, Power Point, Access </p><strong> Intermediário </strong>
+        </div>
+        <div>
+            <img id="prog" src="img/prog.png" alt="P">
+            <h3>Linguagens De Programação</h3>
+            <p>É um método padronizado para comunicar instruções para um computador e um conjunto de regras sintáticas e
+                semânticas usadas para definir um programa de computador.</p>
+            <p> C, Java, JS, Sql</p><strong> Intermediário </strong>
+        </div>
+        <div>
+            <img id="adb" src="img/adobe.png" alt="AD">
+            <h3>Adobe Creative Cloud</h3>
+            <p>São softwares usados para design gráfico, edição de vídeo, desenvolvimento web, fotografia, junto com um
+                conjunto de aplicativos móveis e também alguns serviços em nuvem opcionais</p>
+            <p>Photoshop, Premiere Pro </p><strong>Básico</strong>
+        </div>
+        <div>
+            <img id="web" src="img/web.png" alt="WEB">
+            <h3>Desenvolvimento Web</h3>
+            <p>HTML significa hypertext markup language, em português, linguagem de marcação de hiper texto, que é usado
+                para a construção de websites juntamente com o CSS(estilo de folhas em cascata) </p>
+            <p>Html, CSS</p><strong>Intermediário</strong>
+        </div>
+    </section>
+
+    <section id="pt">
+        <h2>Experiência Acadêmica</h2>
+
+        <div class="port">
+            <img id="sedan"src="img/SEZANDAO.png" alt="SEZANDAO">
+            <p><strong> WebCar (Website)</strong></p>
+            <h5>Meus amigos e eu Desenvolvemos um site para uma X agencia de veiculo que basicamente vai
+                ter total controle das suas vendas de veiculo. A principal qualidade era a facilidade do cliente não
+                precisar ir até o local para ver os carros.
+                O projeto foi desenvolvido em: JAVA, HTML, CSS & SQL.</h5>
+        </div>
+        <div class="port">
+            <img src="img/an.png" alt="android">
+            <p><strong> Sedcitec (APP)</strong></p>
+            <h5>Em um evento, Desenvolvemos um APP que basicamente era uma calculadora normal que compria
+                funcões matemáticas simples em um app com design elegante com cálculos básicos.
+                O projeto foi desenvolvido em: Java
+            </h5>
+        </div>
+        <div class="port">
+            <img src="img/Natorius.png" alt="Game">
+            <p><strong>Natorius (Game)</strong></p>
+            <h5>Também desenvolvemos um jogo que unia a biologia com a as matérias do curso, o jogo
+                explicava o conceito da vida animal, basicamente voce tinha que sobreviver sendo um
+                leão que estava protegendo sua carniça dos bisões.
+                O projeto foi desenvolvido em: Unity C#.
+            </h5>
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <h2>Para me contratar</h2>
+        <p>Entre em contato comigo por meio dessas redes</p>
+        <div>
+            <p<a href="tel:xx55555555"><img src="img/zapzap.png" alt="zap"></a></p>
+        </div>
+        <div>
+            <a href="lucas:email@contato.com"><img src="img/Gmail.png" alt="email"></a>
+            <p></p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/lucas.oliveiraangelo/"><img src="img/Facebook.png" alt="face"></a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/lucas-oliveira-angelo-64a9531b7/"><img src="img/Linkdin.png" alt="link"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Lucas Oliveira Angelo </p>
+    </footer>
+
+</body>
+<script type="text/javascript">
+    var foto = document.getElementById("luscadoll");
+
+    foto.onmouseover = function () {
+        foto.classList.remove("foto_sem_mouse");
+        foto.classList.add("foto_com_mouse");
+    }
+
+    foto.onmouseout = function () {
+        foto.classList.remove("foto_com_mouse");
+        foto.classList.add("foto_sem_mouse");
+
+    }
+</script>
+
+<script>
+    const body = document.getElementById('body');
+    const Trocar_darkmode = document.getElementById('Trocar_darkmode');
+
+    // colocar classes em array
+    const themeClesses = [`lightMode`, `darkMode`];
+
+    function darkMode() {
+        // mapeamento 
+        themeClesses.map(str => body.classList.toggle(str))
+    }
+</script>
+
+
+<!-- <script>
+        $(document).ready(function () {
+            $("#acender").click(function () {
+                $("body").removeClass("escuro");
+                $("body").addClass("claro");
+            });
+            $("#escuro").click(function () {
+                $("body").removeClass("claro");
+                $("body").addClass("escuro");
+            });
+        });
+</script> -->
+
+</html>
